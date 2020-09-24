@@ -9,6 +9,7 @@ import FabSearchService from "../components/fabSearch/FabSearchService";
 import { instance } from "../utils/axios/instance";
 
 import ServicesList from "./Home/ServicesList";
+
 const Services = () => {
   const [services, setServices] = useState();
 
@@ -16,7 +17,7 @@ const Services = () => {
     let location = getCookieLocationInfo();
     if (location) {
       instance
-        .post("get-store-services", {
+        .post("popular-geo-locations", {
           category_ids: [10],
           latitude: location.latitude,
           longitude: location.longitude,

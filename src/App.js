@@ -27,10 +27,6 @@ import FoodSponsers from "./pages/FoodSponsers";
 import { connect } from "react-redux";
 import ServiceDetail from "./pages/ServiceDetail";
 
-//use it later
-import env from "dotenv";
-import cors from "cors";
-
 const App = (user) => {
   return (
     <React.Fragment>

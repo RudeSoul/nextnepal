@@ -17,7 +17,7 @@ const Home = () => {
         <Container>
           <SectionHeading
             heading="Become a Member"
-            subHeading="Lorem Ipsum is simply dummy text of"
+            subHeading="Join us for exclusive deals"
           />
           <Row>
             <Col sm={12} className="text-center">
